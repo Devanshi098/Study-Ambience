@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+
+.soundboard{
+
+    height: 350px;
+    width: 400px;
+    background-color:white;
+    opacity: 70%;
+    margin-top: 10px;
+    margin-left: 1075px;
+    border-radius: 45px;
+    z-index: 1;
+   justify-content: center;
+   align-items: center;
+   padding-top:50px ;
+   overflow: hidden;
+   
+}
+
+.coffee-making,.people,.nature,.waterfall,.lofi{
+    height:50px;
+    width: 250px;
+    background-color: rgba(0, 128, 0, 0.85);
+    line-height: 3rem;
+    z-index: 2;
+    color: black;
+    font-size: 1.4rem;
+    margin-left: 50px;
+   text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    
+    
+   
+}
+.btn{
+    height:40px;
+    width:50px;
+    background-color: darkmagenta;
+    opacity: 65%;
+    border-radius: 45%;
+    margin-left: 20px;
+   
+    
+}
+img{
+    height:25px;
+    margin-right:10px ;
+}
+
+h2{
+ text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.timer{
+    justify-content: center;
+    text-align: center;
+  padding-top: 10px;
+    background-color:whit;
+    opacity: 65%;
+    border-radius: 45%;
+    height: 250px;
+    width: 400px;
+    align-items: center;
+   margin-top: 20px;
+   margin-left: 1050px;
+   border-style:solid;
+   border-width: 10px;
+   border-color: black;
+  
+   
+}
+
+p{
+    font-size: xxx-large;
+}
+
+.btn1{
+    padding:10px;
+    margin-top: 20px;
+    border-radius: 15%;
+    background-color: darkseagreen;
+}
+
+h1{
+    text-align: center;
+    line-height: 5rem;
+    background-color: white;
+    opacity: 65%;
+    height: 80px;
+    margin-bottom: 250px;
+}
